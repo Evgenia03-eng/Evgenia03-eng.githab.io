@@ -1,0 +1,53 @@
+.questions {
+    height: 438px;
+    background: url('../img/bg/bg_questions@2x.jpg') center center/cover no-repeat;
+    padding-top: 62px;
+    padding-bottom: 79px;
+    &__header {
+        margin: 0 auto;
+        width: 896px;
+        height: 297px; 
+    }
+    &__subheader {
+        padding-top: 20px;
+        height: 70px;
+        background-color: #25333c;
+        opacity: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 19px;
+    }
+    &__form {
+        height: 227px;
+        background-image: url('../img/Rectangle_5_copy_2.png');
+        text-align: center;
+        .price__form1 {
+            margin: 0;
+            margin-top: 18px;  
+        }
+    }
+}
+.span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 14px;    
+}
+#message {
+    margin-top: 8px;
+    height: 73px;
+    width: 815px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;    
+}
+.button_questions{
+    margin: 0;
+    margin-top: 11px;
+    width: 180px;
+    height: 45px;   
+}

@@ -1,0 +1,100 @@
+.price {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 952px;
+    padding-top: 53px;
+    padding-bottom: 58px;
+    &__item {
+        width: 265px;
+        height: 355px;
+        border: 1px solid #e9e9e9;
+        background-color: #ffffff;
+    }
+    &__rectangle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 61px;
+        background-color: #25333c;
+        z-index: 10;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 23px;
+        text-transform: uppercase;
+        font-family: Roboto;
+    }
+    &__img {
+        height: 78px;
+        margin-top: 9px; 
+    }
+    &__subtitle {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        width: 234px;
+        height: 53px;
+        margin-top: 20px;
+        color: #2e2e2e;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        font-family: Roboto;
+    }
+    &__footer {
+        text-align: center;
+        margin-top: 60px;
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 23px;
+        font-family: Roboto;
+    }
+    &__wrapper {
+        margin-top: 34px;
+        background-color:white;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__weight {
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $main-color;
+        font-size: 28px;
+        line-height: 30px;
+    }
+    &__form {
+        margin-top: -49px;
+        min-height: 220px;
+        width: 100%;
+        border: 1px solid #898989;
+    }
+    &__wrapper1 {
+        display: flex;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px; 
+        margin-top: 20px;
+    }
+    &__form1 {
+        margin-top: 68px;
+        width: 270px;
+        height: 46px;
+        border-radius: 50px;
+        border-color: #898989;
+        z-index: -11;
+    }
+}
+.button_price {
+    margin-top: 25px;
+}
+.button_submit {
+    margin-top: 30px;
+    width: 180px;
+    height: 45px;   
+}
+input {
+    padding: 0 30px;
+}

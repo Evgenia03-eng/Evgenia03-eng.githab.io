@@ -1,0 +1,35 @@
+.reviews {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    text-align: center;
+}
+.carousel {
+    min-height: 241px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: o auto;
+    &__inner {
+        display: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 31px;
+        img {
+            display: relative;
+            margin: 0 auto;
+        }
+    }
+}
+.slick-prev {
+    position: relative;
+    left: -103px;
+    bottom: -82px;
+}
+.slick-next {
+    position: relative;
+    left: 103px;
+    bottom: 210px;
+}

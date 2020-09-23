@@ -1,0 +1,27 @@
+@import 'variables';
+@import 'promo';
+@import 'advantages';
+@import 'job';
+@import 'agent';
+@import 'price';
+@import 'managers';
+@import 'scheme';
+@import 'reviews';
+@import 'questions';
+@import 'map';
+@import 'footer';
+
+html {
+     padding: 0;
+     margin: 0;
+     overflow-x:  hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import 'media';
+

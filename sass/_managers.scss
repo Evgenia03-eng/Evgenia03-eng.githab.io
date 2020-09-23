@@ -1,0 +1,27 @@
+.managers {
+    text-align: center;
+    background: url('../img/bg/bg_managers@2x.jpg') center center/cover no-repeat;
+    height: 342px;
+    padding-top: 58px;
+    padding-bottom: 76px;
+    &__title {
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        font-family: Roboto; 
+    }
+    &__subtitle {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 18px;
+        width: 924px;
+        height: 44px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 24px;
+        font-family: "Roboto Condensed";
+    }
+}
